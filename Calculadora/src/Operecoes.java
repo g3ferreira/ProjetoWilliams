@@ -12,5 +12,16 @@ public class Operecoes {
 		
 
 	}
+		
+	public void subtraiResultado(OperacaodeSoma soma,int numero1, int numero2){
+		
+		int result = soma.subtraiNumeros(numero1, numero2);
+		JOptionPane.showMessageDialog(null, "Resultado da Subtracao :aa  "+result);
+		
+		
+
+	}
+	
+		
 
 }
