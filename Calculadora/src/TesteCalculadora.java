@@ -14,8 +14,11 @@ public class TesteCalculadora {
 			int n1 = Integer.parseInt(numero1);
 			String numero2 = JOptionPane.showInputDialog("Informe o primeiro numero:");
 			int n2 = Integer.parseInt(numero2);
+			
 			op.resultadoSoma(soma, n1, n2);
-		
+			op.subtraiResultado(soma,n1, n2);
+			
+					
 		}catch(Exception e){
 			JOptionPane.showMessageDialog(null, "Informe o numero do tipo inteiro ");
 		}
